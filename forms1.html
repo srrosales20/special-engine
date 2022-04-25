@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+
+<!-- My comment  -->
+<body>
+    <section>
+        <h1>Username and Password</h1>
+            <form action="/tacos">
+                <!--My comment -->
+                <p>
+                    <label for="username">Enter A Name:</label>
+                    <input id="username" type="text" placeholder="username" name="username">
+
+                </p>
+
+                <!-- My comment  -->
+                <p>
+                    <label for="password">Enter A Password:</label>
+                    <input id="password" type="password" placeholder="password" name="password">
+
+                </p>
+
+                <button>Submit Button</button>
+                  
+            
+            </form>        
+                
+    </section>
+    <hr>
+    <!-- Woah this is cool -->
+    <section>
+        <h1>Query Strings</h1>
+            <form action="https://www.Reddit.com/search/">
+
+                <input type="text" name="q">
+                <button>Submit Reddit</button>
+
+            </form>
+<!-- -->
+            <form action="https://www.youtube.com/results?search_query">
+                <input type="text" name="q">
+                <button>Submit YouTube</button>
+
+            </form>
+<!-- This is  -->
+            <form action="https://www.google.com/search?q">
+                <input type="text" name="q">
+                <button>Submit Google</button>
+
+
+
+            </form>
+
+    </section>
+    <hr>
+<!--  -->
+    <section>
+        <h1>Radio Button and Checkboxes</h1>
+            <form action="birds">
+            <label for="agree">I agree to everything</label>
+            <label type="checkbox" name="agree_too" id="agree"></label>
+                
+                <p>
+                    <label for="s">Small</label>
+                    <input type="radio" name="size" id="s" value="s">
+
+                    <label for="m">Medium</label>
+                    <input type="radio" name="size" id="m" value="m">
+
+                    <label for="l">Large</label>
+                    <input type="radio" name="size" id="l" value="l">
+
+
+                </p>
+                <!-- I nee to label -->
+                <p>
+                    <label for=favcolor>What is your favorite color</label>
+
+                    <select name="favorite" id="favColor">
+
+                        <option value="Red">Red</option>
+
+                        <option value="Green">Green</option>
+
+                        <option value="Blue">Blue</option>
+
+
+
+
+                    </select>
+
+
+
+
+                </p>
+
+<!-- comment  -->
+
+
+                <p>
+                    <label for="scoll">Sonia's scollbar</label>
+                    <input type="range" id="scroll" min="5" max="10" name="scrollbar">
+
+
+
+
+
+                </p>
+
+
+                <button>Submit Button</button>
+
+            </form>
+
+
+
+    </section>
+
+
+</body>
+</html>

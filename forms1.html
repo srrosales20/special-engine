@@ -26,7 +26,7 @@
                     <input id="password" type="password" placeholder="password" name="password">
 
                 </p>
-
+<!-- comment -->
                 <button>Submit Button</button>
                   
             
@@ -36,7 +36,9 @@
     <hr>
     <!-- Woah this is cool -->
     <section>
+        <!--  -->
         <h1>Query Strings</h1>
+        <!--  -->
             <form action="https://www.Reddit.com/search/">
 
                 <input type="text" name="q">
@@ -64,9 +66,10 @@
     <section>
         <h1>Radio Button and Checkboxes</h1>
             <form action="birds">
+                <!--  -->
             <label for="agree">I agree to everything</label>
-            <label type="checkbox" name="agree_too" id="agree"></label>
-                
+            <input type="checkbox" name="agree_too" id="agree">
+                <!--  -->
                 <p>
                     <label for="s">Small</label>
                     <input type="radio" name="size" id="s" value="s">
@@ -81,7 +84,7 @@
                 </p>
                 <!-- I nee to label -->
                 <p>
-                    <label for=favcolor>What is your favorite color</label>
+                    <label for="favcolor">What is your favorite color</label>
 
                     <select name="favorite" id="favColor">
 
@@ -91,24 +94,23 @@
 
                         <option value="Blue">Blue</option>
 
-
-
-
                     </select>
-
-
-
-
                 </p>
 
 <!-- comment  -->
 
 
                 <p>
-                    <label for="scoll">Sonia's scollbar</label>
+                    <label for="scoll">Sonia's Scollbar</label>
                     <input type="range" id="scroll" min="5" max="10" name="scrollbar">
 
 
+                </p>
+                <!-- uehjhd -->
+
+                <p>
+                    <label for="requests">Type Into This Box</label>
+                    <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
 
 
 
@@ -119,6 +121,31 @@
 
             </form>
 
+    </section>
+    <hr>
+    <!--  -->
+    <section>
+        <h2>Form Validations</h2>
+        <form action="bananas">
+            <!-- what -->
+            <label for="required1"></label>
+            <input type="text" name="funny" id="required1" required>
+            <!-- um  -->
+            <label for="length"></label>
+            <input type="text" name="lengthy" id="length" minlength="5" maxlenght="10">
+
+            <p>
+                <input type="email" required>
+
+            </p>
+
+
+
+
+            <button type="submit">submit</button>
+
+
+        </form>
 
 
     </section>

@@ -1,7 +1,7 @@
 h1 {
-    color: darkblue;
+    color: green;
     text-align:center;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 125; 
     font-family:'Courier New', Courier, monospace;
 
@@ -9,24 +9,22 @@ h1 {
 }
 
 h2 {
-    color: darkblue;
-    text-align: center;
+    color: purple;
     font-weight:400; 
     text-decoration: pink;
 }
 
-h3{ 
-    text-decoration: pink underline;
 
-
-}
 
 p {
-
+    color: rgb(195, 126, 0);
+    background-color: rgb(255, 255, 115);
     line-height: 1.5;
     letter-spacing: 0.3ex;
-    
+    }
+    button { 
+        color:white;
+        background-color: blue;
 
 
-
-}
+    }

@@ -1,0 +1,33 @@
+.crimson {
+    color: crimson;
+
+}
+
+.green {
+    color:green;
+}
+.yellow {
+    color:rgb(145, 170, 94);
+}
+
+.red {
+    color:red;
+}
+
+.orange {
+    color:orange;
+}
+
+#green {
+    background-color:green;
+    color:white;
+
+}
+
+#red {
+    background-color: red;
+    color:white;
+    
+
+}
+

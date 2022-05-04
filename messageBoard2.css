@@ -12,7 +12,7 @@
 
 
 
-/*  */
+/* Change whole page background color */
 
 
 body {
@@ -27,11 +27,11 @@ button {
 
 }
 
-/*  */
+/* color chnge for header */
 
 h1, h2 {
 
-    color: rgb(224, 185, 134);
+    color: rgba(223, 91, 157, 0.927);
 
 }
 
@@ -49,6 +49,29 @@ h1, h2 {
 
     color: white;
 }
+
+.men{
+    color:rgb(222, 90, 211);
+
+
+}
+
+.Yale{
+    color:hotpink;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* decenders selectors */
 
 .post a {
@@ -66,7 +89,7 @@ footer > a{
 
 }
 
-/*  */
+/* calling input passowrd color */
 
 
 
@@ -103,14 +126,14 @@ button:hover {
 
 }
 
-/* Pseudo-element */
+/* Pseudo-elements */
 
 h2::first-letter {
 
 
     font-size:xx-large;
 }
-/*  */
+/* more pseudo-elements */
 
 p::first-line {
     color:skyblue

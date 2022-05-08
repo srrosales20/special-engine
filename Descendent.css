@@ -1,0 +1,24 @@
+
+header >a{
+    color:hotpink;
+    font-size: 30px;
+}
+
+
+
+
+#subjects > a {
+
+    color: red; 
+}
+
+
+#genre > a {
+
+    color:rgb(240, 139, 156);
+}
+
+#school > a {
+
+    color: green;
+}

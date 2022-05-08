@@ -4,20 +4,13 @@
     color:pink;
     background-color:
 
-
-
-
-
 } */
 
-
-
-/* Change whole page background color */
+/* Change whole page background color and font size*/
 
 
 body {
     background-color:antiquewhite
-
 
 }
 
@@ -27,7 +20,7 @@ button {
 
 }
 
-/* color chnge for header */
+/* color change for header */
 
 h1, h2 {
 
@@ -35,7 +28,7 @@ h1, h2 {
 
 }
 
-/* Id selector */
+/* Id selector, color change for signup button*/
 
 #signup {
 
@@ -43,7 +36,8 @@ h1, h2 {
     color: white; 
 
 }
-
+/* class selectors, changed the last word in
+ all post to different colors */
 
 .Derek{
 
@@ -62,17 +56,8 @@ h1, h2 {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-/* decenders selectors */
+/* class descendent selectors, changed
+ color of post hyperlink to pink */
 
 .post a {
 
@@ -81,27 +66,24 @@ h1, h2 {
 }
 
 
-/* Decender selctor for Nintendo site */
+/* Descendent selctor for Nintendo site,
+ color changes to purple for hyperlink*/
 footer > a{
     color: purple;
-
 
 
 }
 
 /* calling input passowrd color */
 
-
+/* this to purple dots b/c it is a pswd */
 
 input[type="password"]{
     color:purple;
 
-    
-
-
 }
 
-
+/* This changes the text type to red whenyou type.  */
 input[type="text"]{
 
     color:red;
@@ -113,27 +95,32 @@ input[type="text"]{
 a[href*="google"]{
     color:darkorange;
 }
+/* This chnages the color of the button
+ when you hover over it.  */
 button:hover {
 
     background-color: red;
     color:aquamarine;
 
 }
-
+/* This changes the color of the button
+ when you click on it vs hovering over it.  */
 .post button:active {
 
     background-color: green;
 
 }
 
-/* Pseudo-elements */
+/* Pseudo-elements changing the color of only 
+the first letter of h2 */
 
 h2::first-letter {
 
 
     font-size:xx-large;
 }
-/* more pseudo-elements */
+/* more pseudo-elements, changing only the 
+first line color to skyblue */
 
 p::first-line {
     color:skyblue
